@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ .main{  
+  background-image: url(images/a.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+ }
+ 
+
+ .navbar{
+  margin-left: 30px;
+  height: auto;
+  width: 95%;
+
+ }
+
+
+ .logo{
+  font-size: 30px;
+  font-family: serif;
+  float: left;
+  padding-top: .6%;
+  color: white;
+  cursor: pointer;
+  margin-top: 13px;
+ }
+
+.menus{
+  width: 600px;;
+  height: 70px;
+  float: left;
+
+}
+
+ul{
+  justify-content: center;
+  float: left;
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+  margin-left: 14%;
+  color: white;
+}
+
+
+
+ul li{
+  list-style: none;
+  margin-left: 60px;
+  font-size: 16px;
+}
+
+ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+
+}
+
+ul li a:hover{
+  color: rgb(87, 86, 86);
+
+
+}
+
+.SB{
+  float: right;
+  height:40px;
+  padding: 8px;
+  border-radius: 25px;
+  margin-right: 2%;
+  margin-top: 1%;
+  width: 200px;
+  background-color: rgb(68, 74, 104);
+  border: none;
+
+}
+
+.SB .search-text{
+  width: 190px;
+  padding: 0 6px;
+  margin-top: 10px;
+
+
+}
+
+.search-text{
+  border: none;
+  background:none;
+  outline: none;
+  float: left;
+  font-size: 16px;
+}
+
+.title{
+  position: absolute;
+  top: 40%;
+  left: 22%;
+
+
+}
+
+
+.title h1{
+  color: white;
+  font-size: 85px;
+  cursor: pointer;
+}
+
+.button{
+  position: absolute;
+  top: 61%;
+  left: 37%;
+
+ 
+
+}
+
+.button a{
+  color:white;
+  padding: 5px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  border-color: white;
+  border: 1px solid;
+  
+
+
+}
+
+.button a:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
